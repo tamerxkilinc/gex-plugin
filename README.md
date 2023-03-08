@@ -7,6 +7,7 @@ Please make sure that the iframe has the ID `gex-plugin-iframe`.
 ### Configuration
 Add one of the snippets below to your website to display the iframe. Replace `{YOUR_IFRAME_URL}` with the URL of the iframe. You can choose between these options:
 - `/iframe/fahrzeuge` - Display your vehicles and a filter box
+- `/iframe/newest-vehicles` - Display your newest 8 vehicles in a row
 - `/iframe/fahrzeuge/{:vehicleId}` - Display a specific vehicle by setting its ID for `{:vehicleId}`
 - `/iframe/fahrzeuge/{:vehicleId}/expose` - Display a specific vehicle's expose by setting its ID for `{:vehicleId}`
 - `/iframe/ankauf` - Display a tool for receiving vehicle trade-in offers
