@@ -21,7 +21,7 @@ Include this to the end of your HTML body.
 ```
 
 ```html
-<iframe id="gex-plugin-iframe" width="100%" src="{YOUR_IFRAME_URL}" style="border:none;"></iframe>
+<iframe id="gex-plugin-iframe" width="100%" src="{YOUR_IFRAME_URL}" style="border:none;" allow="clipboard-write"></iframe>
 ```
 
 #### WordPress
