@@ -17,11 +17,18 @@ Add one of the snippets below to your website to display the iframe. Replace `{Y
 #### Plain HTML
 Include this to the end of your HTML body.
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tamerxkilinc/gex-plugin@main/dist/gex-plugin.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/tamerxkilinc/gex-plugin@main/dist/gex-plugin.min.js"></script>
 ```
 
 ```html
-<iframe id="gex-plugin-iframe" width="100%" src="{YOUR_IFRAME_URL}" style="border:none;" allow="clipboard-write"></iframe>
+    <iframe
+        id="gex-plugin-iframe"
+        width="100%"
+        src="YOUR_IFRAME_URL"
+        style="border:none;"
+        allow="clipboard-write"
+        data-background-color="#f1f1f1"
+    ></iframe>
 ```
 
 #### WordPress
